@@ -1,0 +1,4 @@
+Flask==2.x.x
+spacy==3.x.x
+textblob==0.15.x
+it_core_news_sm==3.x.x
