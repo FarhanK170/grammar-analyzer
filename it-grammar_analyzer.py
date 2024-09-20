@@ -1,11 +1,12 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import spacy
 from spacy import displacy
 from textblob import TextBlob
 
 # Initialize Flask app
 app = Flask(__name__)
-
+CORS(app)
 # Load the Italian language model
 nlp = spacy.load("it_core_news_sm")
 
