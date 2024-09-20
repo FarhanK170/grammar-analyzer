@@ -1,4 +1,3 @@
 Flask
 spacy
 textblob
-it_core_news_sm
