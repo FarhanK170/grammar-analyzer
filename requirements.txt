@@ -1,4 +1,6 @@
 Flask
+Flask-Cors
 spacy
 textblob
-Flask-CORS
+language-tool-python
+gunicorn
